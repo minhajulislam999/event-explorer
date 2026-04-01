@@ -1,9 +1,12 @@
 import React from 'react'
+import Slider from './Slider'
+import UpcomingEvents from './UpcomingEvents'
 
 const Home = () => {
   return (
     <div>
-      Home
+      <Slider />
+      <UpcomingEvents />
     </div>
   )
 }
