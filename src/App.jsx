@@ -7,7 +7,8 @@ import ForgotPassword from "./pages/ForgetPassword/ForgetPassword";
 import EventDetails from "./pages/EventDetails/EventDetails";
 import MyProfile from "./pages/MyProfile/MyProfile";
 import MyBookings from "./pages/MyBookings/MyBookings";
-import NotFound from "./pages/NotFound/NotFound";import PrivateRoute from "./routes/PrivateRoute";
+import NotFound from "./pages/NotFound/NotFound";
+import PrivateRoute from "./routes/PrivateRoute";
 import './App.css'
 
 
