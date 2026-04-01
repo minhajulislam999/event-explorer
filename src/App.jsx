@@ -10,6 +10,7 @@ import MyBookings from "./pages/MyBookings/MyBookings";
 import NotFound from "./pages/NotFound/NotFound";
 import PrivateRoute from "./routes/PrivateRoute";
 import './App.css'
+import { ToastContainer } from 'react-toastify';
 
 
 const router = createBrowserRouter([
@@ -43,6 +44,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />;
+      <ToastContainer position="top-right" autoClose={3000} />
     </>
   )
 }
